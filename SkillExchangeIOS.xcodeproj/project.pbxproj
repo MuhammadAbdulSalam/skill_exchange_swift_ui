@@ -13,6 +13,8 @@
 		042E2D06256868770069F9F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042E2D05256868770069F9F1 /* Preview Assets.xcassets */; };
 		042E2D11256868780069F9F1 /* SkillExchangeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E2D10256868780069F9F1 /* SkillExchangeIOSTests.swift */; };
 		042E2D1C256868780069F9F1 /* SkillExchangeIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E2D1B256868780069F9F1 /* SkillExchangeIOSUITests.swift */; };
+		042E2D4A25686FFB0069F9F1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E2D4925686FFB0069F9F1 /* LoginView.swift */; };
+		042E2DA02568815F0069F9F1 /* ViewUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E2D9F2568815F0069F9F1 /* ViewUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		042E2D17256868780069F9F1 /* SkillExchangeIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillExchangeIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042E2D1B256868780069F9F1 /* SkillExchangeIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillExchangeIOSUITests.swift; sourceTree = "<group>"; };
 		042E2D1D256868780069F9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042E2D4925686FFB0069F9F1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		042E2D9F2568815F0069F9F1 /* ViewUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		042E2CFD256868770069F9F1 /* SkillExchangeIOS */ = {
 			isa = PBXGroup;
 			children = (
+				042E2D9E256881470069F9F1 /* Utilility */,
+				042E2D4825686FD30069F9F1 /* LoginGroup */,
 				042E2CFE256868770069F9F1 /* SkillExchangeIOSApp.swift */,
 				042E2D00256868770069F9F1 /* ContentView.swift */,
 				042E2D02256868770069F9F1 /* Assets.xcassets */,
@@ -128,6 +134,22 @@
 				042E2D1D256868780069F9F1 /* Info.plist */,
 			);
 			path = SkillExchangeIOSUITests;
+			sourceTree = "<group>";
+		};
+		042E2D4825686FD30069F9F1 /* LoginGroup */ = {
+			isa = PBXGroup;
+			children = (
+				042E2D4925686FFB0069F9F1 /* LoginView.swift */,
+			);
+			name = LoginGroup;
+			sourceTree = "<group>";
+		};
+		042E2D9E256881470069F9F1 /* Utilility */ = {
+			isa = PBXGroup;
+			children = (
+				042E2D9F2568815F0069F9F1 /* ViewUtility.swift */,
+			);
+			name = Utilility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				042E2D01256868770069F9F1 /* ContentView.swift in Sources */,
+				042E2D4A25686FFB0069F9F1 /* LoginView.swift in Sources */,
 				042E2CFF256868770069F9F1 /* SkillExchangeIOSApp.swift in Sources */,
+				042E2DA02568815F0069F9F1 /* ViewUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
