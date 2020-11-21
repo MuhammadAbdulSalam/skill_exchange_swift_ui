@@ -52,3 +52,12 @@ extension HorizontalAlignment {
    }
    static let hCenterred = HorizontalAlignment(HCenterAlignment.self)
 }
+
+extension VerticalAlignment {
+   private enum HVerticleAlignment: AlignmentID {
+      static func defaultValue(in dimensions: ViewDimensions) -> CGFloat {
+        return dimensions[VerticalAlignment.top]
+      }
+   }
+   static let htop = VerticalAlignment(HVerticleAlignment.self)
+}
