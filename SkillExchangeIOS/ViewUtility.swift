@@ -44,3 +44,11 @@ struct RoundedCorners: View {
 }
 
 
+extension HorizontalAlignment {
+   private enum HCenterAlignment: AlignmentID {
+      static func defaultValue(in dimensions: ViewDimensions) -> CGFloat {
+        return dimensions[HorizontalAlignment.trailing]
+      }
+   }
+   static let hCenterred = HorizontalAlignment(HCenterAlignment.self)
+}
